@@ -9,7 +9,7 @@
       5. Archival: Should the pieces of information be archived at the same time?
       6. Cardinality: Is there a high cardinality (current or growing) in the child side of the relationship?
       7. Data Duplication: Would data duplication be too complicated to manage and undesired?
-      8. Document size
-      9. Document Growth
-      10. Workload
-      11. Individuality
+      8. Document size: Would the combined size of the pieces of information take too much memory or transfer bandwidth for the application?
+      9. Document Growth: Would the embedded piece grow without bound?
+      10. Workload: Are the pieces of information written at different times in a write-heavy workload?
+      11. Individuality: For the child side of the relationship, can the pieces exist by themselves without a parent?
