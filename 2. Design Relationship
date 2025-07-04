@@ -1,6 +1,6 @@
 1. Identifying Relationship
 2. Embedding or Referencing
-    GOLDEN RULE: Things that are accessed together should be stored together.
+    GOLDEN RULE: Data that are accessed together should be stored together.
     Guidlines: 
       1. Simplicity: Would keeping the pieces of information together lead to a simpler data model and code? 
       2. Go Together: Do the pieces of information have a "has-a", "contains" or similar relationship? 
