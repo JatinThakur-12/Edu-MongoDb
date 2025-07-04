@@ -1,0 +1,15 @@
+1. Identifying Relationship
+2. Embedding or Referencing
+    GOLDEN RULE: Things that are accessed together should be stored together.
+    Guidlines: 
+      1. Simplicity: Would keeping the pieces of information together lead to a simpler data model and code? 
+      2. Go Together: Do the pieces of information have a "has-a", "contains" or similar relationship? 
+      3. Query Atomicity: Does the application query the pieces of information together?
+      4. Update Complexity: Are the pieces of information updated together? 
+      5. Archival: Should the pieces of information be archived at the same time?
+      6. Cardinality: Is there a high cardinality (current or growing) in the child side of the relationship?
+      7. Data Duplication: Would data duplication be too complicated to manage and undesired?
+      8. Document size
+      9. Document Growth
+      10. Workload
+      11. Individuality
